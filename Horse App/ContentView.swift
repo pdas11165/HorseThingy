@@ -50,6 +50,7 @@ struct ContentView: View {
                 AddHorseView(horses: $horses)
             }
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
     
     private func deleteHorse(at offsets: IndexSet) {
